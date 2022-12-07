@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Yash's Portfolio </title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/img.jpg" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Hello, I'm
+                    <span style="color: #1e6fd9">Yash Srivastava</span>  </p>
+                <p class="text-small">A computer science student from India. I aim to deepen my understanding in various areas of technology and product development.</p>
+                <div class="buttons">
+                    <button class="btn">Github</button>
+
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="img/img.jpg" alt="Laptop Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">Image Enhancer - ESRGAN</p>
+        <p class="sectionSubTag text-small">● Created a sample working code with the functionality of an app (Remini) which is used to enhance input
+            sample pictures with more sharpened and enlarged images.<br>
+            ● Used pre-trained ESRGAN model for layering of the image to enhance the clarity.
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/ai.jpeg" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left" id="projects">
+        <div class="paras">
+        <p class="sectionTag text-big">Crime and Criminal Tracking Network and Systems (CCTNS)</p>
+        <p class="sectionSubTag text-small">●Programmed an enhanced searching model for efficient data fetching from police CCTNS database using
+            phonetic searching and performing operations such as AND, OR etc. this is also capable of phrase
+            searching and truncation.<br>
+            ● Remodeled the normal time duration for searching in the CSV file by using (Dask, Pandas, PythonNLP)
+            these data frames where the result obtained took optimum time.<br>
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/cctns.png" alt="laptop image" class="imgFluid">
+        </div> 
+    </section>
+    <section class="section" id="services">
+        <div class="paras">
+        <p class="sectionTag text-big">Air Switch </p>
+        <p class="sectionSubTag text-small">● Created an Augmented Reality switch for elctrical appliances that can work by hovering your phone's camera towards the appliance control button.<br>
+            ● Implemented IoT based WiFi controller and relay module with the AR program to control the whole operation.
+            </p>
+        
+        
+        </div>
+        <div class="thumbnail">
+            <img src="img/download.png" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+     
+    <section class="contact" id="contact">
+        <h1 class="text-center">Get in touch.</h1>
+        <p class="text-mine">I would be happy to further discuss my experiences with you, simply shoot me an email or message me on LinkedIn! :)</p>
+        <a class="email_link" href="mailto:iyashsrivastav@gmail.com">iyashsrivastav@gmail.com</a>
+        <div style="position: absolute; height: 0%; bottom: 0px; right: 0px;"><span style="font-size: 1.2rem;">You clicked 8 times</span> <br><button> Easter Egg </button></div>
+
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2022 yash srivastava
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+
+</body>
+
+</html>
